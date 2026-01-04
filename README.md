@@ -1,5 +1,11 @@
-# FPGA-StopWatch
+# FPGA StopWatch
 
-In this project there are 2 clocks. one runs with seconds and minutes, and the other seconds and hundredths.
+Dual-mode stopwatch implemented on FPGA with seconds/minutes and seconds/hundredths timing.
 
-You can see in the video how the clock is running : https://www.youtube.com/watch?v=cVFWwiqZI68
+## Features
+- Two timing modes
+- FPGA deployment (Quartus archive included)
+- Demo video: https://www.youtube.com/watch?v=cVFWwiqZI68
+
+## Run
+Open `Stopper.qar` in Intel Quartus, build, and program the DE0 board.
